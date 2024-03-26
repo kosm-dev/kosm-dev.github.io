@@ -34,12 +34,12 @@
 
           <div class="activity">
 
-            <div class="activity-status">
+            <div class="activity-status activity-status--inactive">
               <div class="activity-status__title">
                 status:
               </div>
               <div class="activity-status__value">
-                <span>Active</span>
+                <span>Inactive</span>
                 <div class="activity-status__icon">
                   <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle opacity="0.2" cx="20.4033" cy="20.3533" r="20" fill="#10B981" />
@@ -60,12 +60,12 @@
                 <div class="activity-user__text">
                   welcome, <span>Adam</span>
                 </div>
-                <div class="activity-status">
+                <div class="activity-status activity-status--inactive">
                   <div class="activity-status__title">
                     status:
                   </div>
                   <div class="activity-status__value">
-                    <span>Active</span>
+                    <span>Inactive</span>
                     <div class="activity-status__icon">
                       <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <circle opacity="0.2" cx="20.4033" cy="20.3533" r="20" fill="#10B981" />
@@ -242,6 +242,15 @@
                     </a>
                   </li>
 
+                  <li class="menu-list__item">
+                    <a class="menu-list__link menu-list__link--logout" href="#">
+                      <div class="menu-list__icon">
+                        <img src="images/panel/menu/logout-icon.png" alt="logout-icon">
+                      </div>
+                      logout
+                    </a>
+                  </li>
+
                 </ul>
 
               </div>
@@ -340,7 +349,7 @@
 
                         <div class="profit-item__content">
                           <div class="profit-item__value">
-                            $1300
+                            $1.300.300
                           </div>
                         </div>
 
@@ -348,11 +357,11 @@
 
                       </div>
 
-                      <div class="profit-item">
+                      <div class="profit-item profit-item--down">
 
                         <div class="profit-item__head">
                           <div class="profit-item__title">
-                            account value
+                            PROFIT
                           </div>
 
                           <div class="tooltip">
@@ -376,11 +385,12 @@
 
                         <div class="profit-item__content">
                           <div class="profit-item__icon">
+
                             <svg width="17" height="21" viewBox="0 0 17 21" fill="none"
                               xmlns="http://www.w3.org/2000/svg">
-                              <path d="M14.5697 7.86349L8.49969 1.79349L2.42969 7.86349" stroke="#10B981"
-                                stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
-                              <path d="M8.50049 18.7935V1.9635" stroke="#10B981" stroke-width="3" stroke-linecap="round"
+                              <path d="M14.5697 7.86349L8.49969 1.79349L2.42969 7.86349" stroke="white" stroke-width="3"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                              <path d="M8.50049 18.7935V1.9635" stroke="white" stroke-width="3" stroke-linecap="round"
                                 stroke-linejoin="round" />
                             </svg>
 
@@ -398,8 +408,6 @@
 
                   </div>
 
-
-
                   <div class="dashboard__elements">
 
                     <div class="dashboard-item">
@@ -414,7 +422,7 @@
                       </div>
 
                       <a class="panel-btn" href="#">
-                        see bot perf.
+                        see live trades
                       </a>
 
                     </div>
@@ -426,7 +434,7 @@
                           <img src="images/panel/dashboard/icon_2.svg" alt="dashboard icon">
                         </div>
                         <div class="dashboard-item__title">
-                          Click and see active trades in detail
+                          Click and see bot performance
                         </div>
                       </div>
 
@@ -437,10 +445,6 @@
                     </div>
 
                   </div>
-
-
-
-
 
 
                 </div>

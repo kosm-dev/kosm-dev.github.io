@@ -96,7 +96,7 @@
           <div class="wrap__inner">
 
             <nav class="navigation">
-
+            
               <div class="menu">
                 <ul class="menu-list">
                   <li class="menu-list__item">
@@ -123,9 +123,9 @@
                       Dashboard
                     </a>
                   </li>
-
+            
                   <li class="menu-list__item">
-                    <a class="menu-list__link menu-list__link--active" href="#">
+                    <a class="menu-list__link" href="#">
                       <div class="menu-list__icon">
                         <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path
@@ -151,8 +151,8 @@
                       LIVETRADES
                     </a>
                   </li>
-
-
+            
+            
                   <li class="menu-list__item">
                     <a class="menu-list__link" href="#">
                       <div class="menu-list__icon">
@@ -165,9 +165,9 @@
                       bot performance
                     </a>
                   </li>
-
-
-
+            
+            
+            
                   <li class="menu-list__item">
                     <a class="menu-list__link" href="#">
                       <div class="menu-list__icon">
@@ -189,10 +189,10 @@
                       add funds
                     </a>
                   </li>
-
-
+            
+            
                   <li class="menu-list__item">
-                    <a class="menu-list__link" href="#">
+                    <a class="menu-list__link menu-list__link--active" href="#">
                       <div class="menu-list__icon">
                         <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path
@@ -209,9 +209,9 @@
                       Withdraw funds
                     </a>
                   </li>
-
-
-
+            
+            
+            
                   <li class="menu-list__item">
                     <a class="menu-list__link" href="#">
                       <div class="menu-list__icon">
@@ -221,13 +221,13 @@
                             fill="white" />
                         </svg>
                       </div>
-
+            
                       Join Telegram Group
                     </a>
                   </li>
-
-
-
+            
+            
+            
                   <li class="menu-list__item">
                     <a class="menu-list__link" href="#">
                       <div class="menu-list__icon">
@@ -240,7 +240,7 @@
                       technical support
                     </a>
                   </li>
-
+            
                   <li class="menu-list__item">
                     <a class="menu-list__link menu-list__link--logout" href="#">
                       <div class="menu-list__icon">
@@ -249,17 +249,17 @@
                       logout
                     </a>
                   </li>
-
+            
                 </ul>
-
+            
               </div>
-
+            
               <a class="navigation-logo" href="dashboard.html">
                 <img src="images/panel/panel-logo.svg" alt="logo">
               </a>
-
+            
               <div class="navigation-footer">
-
+            
                 <nav class="navigation-footer__menu">
                   <ul class="navigation-footer__list">
                     <li class="navigation-footer__item">
@@ -272,21 +272,21 @@
                         Privacy Policy
                       </a>
                     </li>
-
+            
                     <li class="navigation-footer__item">
                       <a class="navigation-footer__link" href="#">
                         Cookies Policy
                       </a>
                     </li>
-
+            
                   </ul>
                 </nav>
-
+            
                 <div class="navigation-footer__copy">
                   2024 Copyright. All righst reserved.
                 </div>
               </div>
-
+            
             </nav>
 
             <div class="content">
@@ -310,239 +310,71 @@
                 </a>
               </div>
 
-              <section class="livetrades">
+              <section class="funds-withdraw">
+                <div class="funds-withdraw__inner">
+                  <h1 class="funds-withdraw__title panel-title">
+                    Withdraw funds
+                  </h1>
 
-                <h1 class="livetrades__title panel-title">
-                  Live trades
-                </h1>
+                  <div class="funds-withdraw__items">
 
-                <div class="livetrades-table">
-
-                  <div class="livetrades-table__item">
-
-                    <div class="livetrades-table__head">
-                      <div class="livetrades-table__title">
-                        DYMUSDT
+                    <div class="funds-item funds-item--inactive">
+                      <div class="funds-item__title">
+                        Funding amount (USD)
                       </div>
-                      <div class="livetrades-table__icon">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <circle opacity="0.2" cx="15" cy="15" r="15" fill="#10B981" />
-                          <circle opacity="0.2" cx="15" cy="15" r="11.25" fill="#10B981" />
-                          <circle opacity="0.2" cx="15" cy="15" r="7.5" fill="#10B981" />
-                          <circle cx="15" cy="15" r="3.75" fill="#10B981" />
-                        </svg>
+
+                      <div class="funds-item__text">
+                        Vestibulum in mattis felis, non rhoncus nulla. Nulla auctor massa vel mattis bibendum.
+                      </div>
+
+                      <input class="funds-item__value" placeholder="500" type="text">
+                    </div>
+
+
+                    <div class="funds-item funds-item--inactive">
+                      <div class="funds-item__title">
+                        ADDRESS
+                      </div>
+                      <input class="funds-item__value" placeholder="0x7fsb..e80" type="text">
+                    </div>
+
+                    <div class="funds-item">
+                      <div class="funds-item__title">
+                        ASSET
+                      </div>
+                      <div class="funds-item__value">
+                        <div class="funds-item__value-box">
+                          <div class="funds-item__value-icon">
+                            <img src="images/panel/eth.png" alt="eth">
+                          </div>
+                          <span>eth</span>
+                        </div>
                       </div>
                     </div>
 
-                    <div class="livetrades-table__body">
 
-                      <div class="livetrades-table__row">
 
-                        <div class="livetrades-table__name">
-                          Trande start
-                        </div>
 
-                        <div class="livetrades-table__value">
-                          26.02.2024
-                        </div>
-
+                    <div class="funds-item">
+                      <div class="funds-item__title">
+                        network
                       </div>
-
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Purchase Price (USDT)
-                        </div>
-
-                        <div class="livetrades-table__value">
-                          3.50
-                        </div>
-
-                      </div>
-
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Invested Amount (USDT)
-                        </div>
-
-                        <div class="livetrades-table__value">
-                          1000.00
-                        </div>
-
-                      </div>
-
-
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Current Price (USDT)
-                        </div>
-
-                        <div class="livetrades-table__value">
-                          7.64
-                        </div>
-
-                      </div>
-
-
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Est. Total Value (USDT)
-                        </div>
-
-                        <div class="livetrades-table__value">
-                          2184.00
-                        </div>
-
-                      </div>
-
-
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Est. Total PNL (USDT)
-                        </div>
-
-                        <div class="livetrades-table__value livetrades-table__value--up">
-                          1184.00
-                        </div>
-
-                      </div>
-                      <div class="livetrades-table__row">
-
-                        <div class="livetrades-table__name">
-                          Est. Total PNL (%)
-                        </div>
-
-                        <div class="livetrades-table__value livetrades-table__value--up">
-                          118.40%
-                        </div>
-
-                      </div>
-
+                      <div class="funds-item__value">erc20</div>
                     </div>
+
 
                   </div>
 
-
-                  <div class="livetrades-table__item">
-                  
-                    <div class="livetrades-table__head">
-                      <div class="livetrades-table__title">
-                        DYMUSDT
-                      </div>
-                      <div class="livetrades-table__icon livetrades-table__icon--down">
-                        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <circle opacity="0.2" cx="15" cy="15" r="15" fill="#10B981" />
-                          <circle opacity="0.2" cx="15" cy="15" r="11.25" fill="#10B981" />
-                          <circle opacity="0.2" cx="15" cy="15" r="7.5" fill="#10B981" />
-                          <circle cx="15" cy="15" r="3.75" fill="#10B981" />
-                        </svg>
-                      </div>
-                    </div>
-                  
-                    <div class="livetrades-table__body">
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Trande start
-                        </div>
-                  
-                        <div class="livetrades-table__value">
-                          26.02.2024
-                        </div>
-                  
-                      </div>
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Purchase Price (USDT)
-                        </div>
-                  
-                        <div class="livetrades-table__value">
-                          3.50
-                        </div>
-                  
-                      </div>
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Invested Amount (USDT)
-                        </div>
-                  
-                        <div class="livetrades-table__value">
-                          1000.00
-                        </div>
-                  
-                      </div>
-                  
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Current Price (USDT)
-                        </div>
-                  
-                        <div class="livetrades-table__value">
-                          7.64
-                        </div>
-                  
-                      </div>
-                  
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Est. Total Value (USDT)
-                        </div>
-                  
-                        <div class="livetrades-table__value">
-                          2184.00
-                        </div>
-                  
-                      </div>
-                  
-                  
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Est. Total PNL (USDT)
-                        </div>
-                  
-                        <div class="livetrades-table__value livetrades-table__value--up">
-                          1184.00
-                        </div>
-                  
-                      </div>
-                      <div class="livetrades-table__row">
-                  
-                        <div class="livetrades-table__name">
-                          Est. Total PNL (%)
-                        </div>
-                  
-                        <div class="livetrades-table__value livetrades-table__value--down">
-                          118.40%
-                        </div>
-                  
-                      </div>
-                  
-                    </div>
-                  
+                  <div class="funds-withdraw__btns">
+                    <a class="funds-withdraw__btn btn" href="#">
+                      Withdraw funds
+                    </a>
                   </div>
-
-
-                  
 
 
                 </div>
 
               </section>
-
 
 
             </div>
